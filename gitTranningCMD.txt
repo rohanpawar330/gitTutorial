@@ -1,0 +1,25 @@
+git config --global user.name "rohan pawar"
+git config --global user.email "rohanpawar330@gmail.com"
+notepad
+git init DemoApp
+cd .git/
+vi config
+git status
+git add README.md --ready to commit but not commited
+git commit -m "Initial commit"
+--include more files and add the by using "add ." 
+git status
+git commit -m "3 files commited index info & inst"
+git reset head . --resed the add file 
+git remote -v --to get remote access of ur repo at git hub
+--add the url provided at github
+git remote add origin https://github.com/rohanpawar330/gitTutorial.git 
+--push the file to github
+git push -u origin master
+======================================================
+git fetch              &    git pull
+it merges ur changes       it replace the whole  
+with the code avail        code with the github code.
+at github
+
+
